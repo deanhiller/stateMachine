@@ -5,5 +5,5 @@ public interface StateMachine
 {
 	State getCurrentState();
 
-	void fireEvent(String onEvent);
+	void fireEvent(String event);
 }
